@@ -1,0 +1,29 @@
+﻿@page "{trainingId:int}"
+@model TrainingAppDemo.Pages.Training.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h2>Detail</h2>
+
+<table class="table table-condensed">
+    <tr>
+        <td>Title </td>
+        <td>@Model.training.Title</td>
+    </tr>
+    <tr>
+        <td>Trainer </td>
+        <td>@Model.training.Trainer</td>
+    </tr>
+    <tr>
+        <td>Level </td>
+        <td>@Model.training.Level</td>
+    </tr>
+</table>
+
+<div>
+    <a asp-page="./List" class="btn btn-default">
+        <span class="glyphicon glyphicon-chevron-left" ></span>
+    </a>
+
+</div>

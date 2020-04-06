@@ -1,0 +1,62 @@
+﻿@page 
+
+@model TrainingAppDemo.Pages.Training.ListModel
+@{
+    ViewData["Title"] = "Trainings";
+}
+
+<h2>All Trainings </h2>
+
+@Model.Message
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            @*<input type="search" class="form-control" name="serchTerm" />*@
+
+            <input type="search" class="form-control" asp-for="searchTerm" />
+        </div>
+
+        <div class="input-group-btn">
+            <button class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a class="btn btn-lg" asp-page="./Edit">
+        <span class="glyphicon glyphicon-plus-sign"></span>
+    </a>
+</div>
+
+<table class="table">
+
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Trainer</th>
+        <th>Level</th>
+        <th></th>
+    </tr>
+    @foreach (var training in Model.Trainings)
+    {
+    <tr>
+        <td>@training.Id</td>
+        <td>@training.Title</td>
+        <td>@training.Trainer</td>
+        <td>@training.Level</td>
+        <td>
+
+            <a class="btn btn-lg" asp-page="./Detail" asp-route-trainingId="@training.Id">
+                <span class="glyphicon glyphicon-zoom-in"></span>
+            </a>
+
+            <a class="btn btn-lg" asp-page="./Edit" asp-route-trainingId="@training.Id">
+                <span class="glyphicon glyphicon-edit"></span>
+            </a>
+        </td>
+    </tr>
+    }
+        </table>

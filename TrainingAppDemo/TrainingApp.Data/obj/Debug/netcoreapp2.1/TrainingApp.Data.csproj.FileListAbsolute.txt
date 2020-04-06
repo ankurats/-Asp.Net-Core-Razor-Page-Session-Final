@@ -1,0 +1,9 @@
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\bin\Debug\netcoreapp2.1\TrainingApp.Data.deps.json
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\bin\Debug\netcoreapp2.1\TrainingApp.Data.dll
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\bin\Debug\netcoreapp2.1\TrainingApp.Data.pdb
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\obj\Debug\netcoreapp2.1\TrainingApp.Data.csprojAssemblyReference.cache
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\obj\Debug\netcoreapp2.1\TrainingApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\obj\Debug\netcoreapp2.1\TrainingApp.Data.AssemblyInfoInputs.cache
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\obj\Debug\netcoreapp2.1\TrainingApp.Data.AssemblyInfo.cs
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\obj\Debug\netcoreapp2.1\TrainingApp.Data.dll
+C:\Users\ankur.pathak\source\repos\TrainingAppDemo\TrainingApp.Data\obj\Debug\netcoreapp2.1\TrainingApp.Data.pdb
